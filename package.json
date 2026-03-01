@@ -1,0 +1,12 @@
+{
+  "name": "dev-tools-radar",
+  "version": "1.0.0",
+  "description": "A curated radar tracking the best developer tools",
+  "scripts": {
+    "stars": "node check-stars.js",
+    "report": "node generate-report.js"
+  },
+  "keywords": ["developer-tools", "ai", "browser-automation", "mcp", "awesome-list"],
+  "author": "Mehran Akila",
+  "license": "MIT"
+}
