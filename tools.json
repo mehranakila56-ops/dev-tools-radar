@@ -1,0 +1,74 @@
+{
+  "last_updated": "2026-03-01",
+  "categories": {
+    "ai_browser_automation": {
+      "description": "Cloud browser platforms for AI agents",
+      "tools": [
+        {
+          "name": "AnchorBrowser",
+          "url": "https://anchorbrowser.io",
+          "github": null,
+          "description": "Cloud browser for AI agents with stealth, CAPTCHA solving, MCP support",
+          "features": ["puppeteer", "playwright", "mcp", "stealth", "captcha", "proxy"],
+          "pricing": "freemium",
+          "stars_approx": null
+        },
+        {
+          "name": "Browserbase",
+          "url": "https://browserbase.com",
+          "github": "browserbase/stagehand",
+          "description": "Headless browser infrastructure for AI agents with Playwright",
+          "features": ["playwright", "session-recording", "devtools"],
+          "pricing": "paid",
+          "stars_approx": 9000
+        },
+        {
+          "name": "BrowserCloud",
+          "url": "https://browsercloud.io",
+          "github": null,
+          "description": "Cloud browser infrastructure, multi-framework support",
+          "features": ["puppeteer", "playwright", "selenium", "soc2"],
+          "pricing": "paid",
+          "stars_approx": null
+        }
+      ]
+    },
+    "mcp_servers": {
+      "description": "Model Context Protocol servers for AI assistants",
+      "tools": [
+        {
+          "name": "AnchorBrowser MCP",
+          "url": "https://docs.anchorbrowser.io/mcp",
+          "github": null,
+          "description": "MCP server that gives AI agents full browser access",
+          "features": ["browser", "web-access", "claude", "cursor"],
+          "pricing": "freemium",
+          "stars_approx": null
+        }
+      ]
+    },
+    "web_scraping": {
+      "description": "Web scraping and data extraction platforms",
+      "tools": [
+        {
+          "name": "Apify",
+          "url": "https://apify.com",
+          "github": "apify/crawlee",
+          "description": "Web scraping and automation platform",
+          "features": ["actors", "storage", "proxy"],
+          "pricing": "freemium",
+          "stars_approx": 14000
+        },
+        {
+          "name": "Crawlee",
+          "url": "https://crawlee.dev",
+          "github": "apify/crawlee",
+          "description": "Open source Node.js web scraping library",
+          "features": ["puppeteer", "playwright", "cheerio"],
+          "pricing": "open-source",
+          "stars_approx": 14000
+        }
+      ]
+    }
+  }
+}
